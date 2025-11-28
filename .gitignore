@@ -1,0 +1,7 @@
+# Ignore lazy.nvim installed packages
+nvim-data/
+lazy-lock.json
+node_modules/
+*.pyc
+__pycache__/
+.DS_Store
