@@ -1,0 +1,511 @@
+
+==============================================================================
+conform:                                                                    ✅
+
+conform.nvim report ~
+- Log file: C:\Users\abhir\AppData\Local\nvim-data\conform.log
+- ✅ OK black ready (python)
+- ✅ OK isort ready (python)
+- ✅ OK jq ready (json)
+- ✅ OK mdformat ready (markdown)
+- ✅ OK ruff_fix ready (python)
+- ✅ OK ruff_format ready (python)
+- ✅ OK stylua ready (lua)
+- ✅ OK yamlfmt ready (yaml)
+
+==============================================================================
+dap:                                                                        ✅
+
+dap: Adapters ~
+
+dap.adapter: python ~
+- Adapter is a function. Can't validate it
+
+dap.adapter: debugpy ~
+- Adapter is a function. Can't validate it
+
+dap: Sessions ~
+- ✅ OK No active sessions
+
+==============================================================================
+lazy:                                                                     3 ⚠️
+
+lazy.nvim ~
+- {lazy.nvim} version `11.17.5`
+- ✅ OK {git} `version 2.47.0.windows.2`
+- ⚠️ WARNING found existing packages at `C:\Users\abhir\AppData\Local\nvim-data\site\pack\lazy`
+- ✅ OK packer_compiled.lua not found
+
+luarocks ~
+- checking `luarocks` installation
+- ✅ OK no plugins require `luarocks`, so you can ignore any warnings below
+- ✅ OK {luarocks} `3.9.2`
+- ⚠️ WARNING `lua` version `5.1` needed, but found `Lua 5.4.6  Copyright (C) 1994-2023 Lua.org, PUC-Rio`
+- ⚠️ WARNING {lua5.1} or {lua} or {lua-5.1} version `5.1` not installed
+
+==============================================================================
+lspconfig:                                                                  ✅
+
+- Skipped. This healthcheck is redundant with `:checkhealth vim.lsp`.
+
+==============================================================================
+luasnip:                                                                  1 ⚠️
+
+luasnip ~
+- ⚠️ WARNING For Variable/Placeholder-transformations, luasnip requires
+      the jsregexp library. See `:help |luasnip-lsp-snippets-transformations`| for advice
+  
+
+==============================================================================
+mason:                                                                   10 ⚠️
+
+mason.nvim ~
+- ✅ OK mason.nvim version v2.1.0
+- ✅ OK PATH: prepend
+- ✅ OK Providers: 
+    mason.providers.registry-api
+    mason.providers.client
+- ✅ OK neovim version >= 0.10.0
+
+mason.nvim [Registries] ~
+- ✅ OK Registry `github.com/mason-org/mason-registry version: 2025-11-28-bleak-rise` is installed.
+
+mason.nvim [Core utils] ~
+- ✅ OK unzip: `UnZip 5.51 of 22 May 2004, by Info-ZIP.  Maintained by C. Spieler.  Send
+`
+- ⚠️ WARNING wget: not available
+  - ADVICE:
+    - spawn: wget failed with exit code - and signal -. Could not find executable "wget" in PATH.
+
+- ✅ OK curl: `curl 8.16.0 (Windows) libcurl/8.16.0 Schannel zlib/1.3.1 WinIDN
+`
+- ⚠️ WARNING gzip: not available
+  - ADVICE:
+    - spawn: gzip failed with exit code - and signal -. Could not find executable "gzip" in PATH.
+
+- ✅ OK tar: `bsdtar 3.8.1 - libarchive 3.8.1 zlib/1.2.13.1-motley liblzma/5.4.3 bz2lib/1.0.8 libzstd/1.5.5 cng/2.0 libb2/bundled 
+`
+- ✅ OK pwsh: `7.5.4 Microsoft Windows 10.0.26200 Win32NT
+`
+- ⚠️ WARNING 7z: not available
+  - ADVICE:
+    - spawn: 7z failed with exit code - and signal -. Could not find executable "7z" in PATH.
+
+
+mason.nvim [Languages] ~
+- ⚠️ WARNING Go: not available
+  - ADVICE:
+    - spawn: go failed with exit code - and signal -. Could not find executable "go" in PATH.
+
+- ⚠️ WARNING cargo: not available
+  - ADVICE:
+    - spawn: cargo failed with exit code - and signal -. Could not find executable "cargo" in PATH.
+
+- ⚠️ WARNING Ruby: not available
+  - ADVICE:
+    - spawn: ruby failed with exit code - and signal -. Could not find executable "ruby" in PATH.
+
+- ⚠️ WARNING RubyGem: not available
+  - ADVICE:
+    - spawn: gem failed with exit code - and signal -. Could not find executable "gem" in PATH.
+
+- ⚠️ WARNING Composer: not available
+  - ADVICE:
+    - spawn: composer failed with exit code - and signal -. Could not find executable "composer" in PATH.
+
+- ⚠️ WARNING PHP: not available
+  - ADVICE:
+    - spawn: php failed with exit code - and signal -. Could not find executable "php" in PATH.
+
+- ✅ OK node: `v24.11.1
+`
+- ⚠️ WARNING julia: not available
+  - ADVICE:
+    - spawn: julia failed with exit code - and signal -. Could not find executable "julia" in PATH.
+
+- ✅ OK luarocks: `luarocks 3.9.2
+`
+- ✅ OK python: `Python 3.13.5
+`
+- ✅ OK java: `java version "21" 2023-09-19 LTS
+`
+- ✅ OK javac: `javac 21
+`
+- ✅ OK npm: `11.6.2`
+- ✅ OK pip: `pip 25.1 from C:\Users\abhir\miniconda3\Lib\site-packages\pip (python 3.13)
+
+`
+- ✅ OK python venv: `Ok`
+
+==============================================================================
+mason-lspconfig:                                                            ✅
+
+mason-lspconfig.nvim ~
+- ✅ OK Neovim v0.11
+- ✅ OK mason.nvim v2
+
+==============================================================================
+nvim-treesitter:                                                          1 ⚠️
+
+Installation ~
+- ⚠️ WARNING `tree-sitter` executable not found (parser generator, only needed for :TSInstallFromGrammar, not required for :TSInstall)
+- ✅ OK `node` found v24.11.1 (only needed for :TSInstallFromGrammar)
+- ✅ OK `git` executable found.
+- ✅ OK `cl` executable found. Selected from { vim.NIL, "cc", "gcc", "clang", "cl", "zig" }
+  Version: Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35221 for x64
+- ✅ OK Neovim was compiled with tree-sitter runtime ABI version 15 (required >=13). Parsers must be compatible with runtime ABI.
+
+OS Info:
+{
+  machine = "x86_64",
+  release = "10.0.26200",
+  sysname = "Windows_NT",
+  version = "Windows 11 Home Single Language"
+} ~
+
+Parser/Features         H L F I J
+  - bash                ✓ ✓ ✓ . ✓
+  - json                ✓ ✓ ✓ ✓ .
+  - lua                 ✓ ✓ ✓ ✓ ✓
+  - markdown            ✓ . ✓ ✓ ✓
+  - python              ✓ ✓ ✓ ✓ ✓
+  - query               ✓ ✓ ✓ ✓ ✓
+  - regex               ✓ . . . .
+  - toml                ✓ ✓ ✓ ✓ ✓
+  - vim                 ✓ ✓ ✓ . ✓
+  - vimdoc              ✓ . . . ✓
+  - yaml                ✓ ✓ ✓ ✓ ✓
+
+  Legend: H[ighlight], L[ocals], F[olds], I[ndents], In[j]ections
+         +) multiple parsers found, only one will be used
+         x) errors found in the query, try to run :TSUpdate {lang} ~
+
+==============================================================================
+telescope:                                                                1 ⚠️
+
+Checking for required plugins ~
+- ✅ OK plenary installed.
+
+Checking external dependencies ~
+- ✅ OK rg: found ripgrep 15.1.0 (rev af60c2de9d)
+- ⚠️ WARNING fd: not found. Install [sharkdp/fd](https://github.com/sharkdp/fd) for extended capabilities
+
+===== Installed extensions ===== ~
+
+==============================================================================
+venv-selector:                                                              ✅
+
+venv-selector ~
+- ✅ OK Settings are correct
+
+==============================================================================
+vim.deprecated:                                                           1 ⚠️
+
+ ~
+- ⚠️ WARNING vim.tbl_flatten is deprecated. Feature will be removed in Nvim 0.13
+  - ADVICE:
+    - use vim.iter(…):flatten():totable() instead.
+    - stack traceback:
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer/nvim.lua:96
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer.lua:588
+        C:/Users/abhir/AppData/Local/nvim/lua/plugins/ui.lua:19
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:380
+        [C]:-1
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/util.lua:135
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:395
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:362
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:197
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:127
+        C:\Users\abhir\AppData\Local\nvim-data\lazy\lazy.nvim/lua/lazy/init.lua:112
+        C:\Users\abhir\AppData\Local\nvim/lua/core/lazy.lua:13
+        [C]:-1
+        C:\Users\abhir\AppData\Local\nvim\init.lua:7
+    - stack traceback:
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer/nvim.lua:96
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer.lua:589
+        C:/Users/abhir/AppData/Local/nvim/lua/plugins/ui.lua:19
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:380
+        [C]:-1
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/util.lua:135
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:395
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:362
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:197
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:127
+        C:\Users\abhir\AppData\Local\nvim-data\lazy\lazy.nvim/lua/lazy/init.lua:112
+        C:\Users\abhir\AppData\Local\nvim/lua/core/lazy.lua:13
+        [C]:-1
+        C:\Users\abhir\AppData\Local\nvim\init.lua:7
+    - stack traceback:
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer/nvim.lua:96
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer.lua:591
+        C:/Users/abhir/AppData/Local/nvim/lua/plugins/ui.lua:19
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:380
+        [C]:-1
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/util.lua:135
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:395
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:362
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:197
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:127
+        C:\Users\abhir\AppData\Local\nvim-data\lazy\lazy.nvim/lua/lazy/init.lua:112
+        C:\Users\abhir\AppData\Local\nvim/lua/core/lazy.lua:13
+        [C]:-1
+        C:\Users\abhir\AppData\Local\nvim\init.lua:7
+    - stack traceback:
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer/nvim.lua:96
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-colorizer.lua/lua/colorizer.lua:617
+        C:/Users/abhir/AppData/Local/nvim/lua/plugins/ui.lua:19
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:380
+        [C]:-1
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/util.lua:135
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:395
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:362
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:197
+        C:/Users/abhir/AppData/Local/nvim-data/lazy/lazy.nvim/lua/lazy/core/loader.lua:127
+        C:\Users\abhir\AppData\Local\nvim-data\lazy\lazy.nvim/lua/lazy/init.lua:112
+        C:\Users\abhir\AppData\Local\nvim/lua/core/lazy.lua:13
+        [C]:-1
+        C:\Users\abhir\AppData\Local\nvim\init.lua:7
+
+==============================================================================
+vim.health:                                                                 ✅
+
+Configuration ~
+- ✅ OK no issues found
+
+Runtime ~
+- ✅ OK $VIMRUNTIME: C:\Program Files\Neovim\share/nvim/runtime
+
+Performance ~
+- ✅ OK Build type: Release
+
+Remote Plugins ~
+- ✅ OK Up to date
+
+External Tools ~
+- ✅ OK ripgrep 15.1.0 (rev af60c2de9d) (C:\Users\abhir\AppData\Local\Microsoft\WinGet\Packages\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\ripgrep-15.1.0-x86_64-pc-windows-msvc\rg.EXE)
+
+==============================================================================
+vim.lsp:                                                                    ✅
+
+- LSP log level : WARN
+- Log path: C:/Users/abhir/AppData/Local/nvim-data/lsp.log
+- Log size: 0 KB
+
+vim.lsp: Active Clients ~
+- GitHub Copilot (id: 1)
+  - Version: 1.397.0
+  - Root directory: nil
+  - Command: { "node", "C:\\Users\\abhir\\AppData\\Local\\nvim-data\\lazy\\copilot.vim/copilot-language-server/dist/language-server.js", "--stdio" }
+  - Settings: {
+      ["github-enterprise"] = {
+        uri = vim.NIL
+      },
+      http = {
+        proxy = vim.NIL,
+        proxyStrictSSL = vim.NIL
+      }
+    }
+  - Attached buffers: 1
+
+vim.lsp: Enabled Configurations ~
+- bashls:
+  - cmd: { "bash-language-server", "start" }
+  - filetypes: bash, sh
+  - root_markers: { ".git" }
+  - settings: {
+      bashIde = {
+        globPattern = "*@(.sh|.inc|.bash|.command)"
+      }
+    }
+
+- docker_compose_language_service:
+  - cmd: { "docker-compose-langserver", "--stdio" }
+  - filetypes: yaml.docker-compose
+  - root_markers: { "docker-compose.yaml", "docker-compose.yml", "compose.yaml", "compose.yml" }
+
+- dockerls:
+  - cmd: { "docker-langserver", "--stdio" }
+  - filetypes: dockerfile
+  - root_markers: { "Dockerfile" }
+
+- jsonls:
+  - cmd: { "vscode-json-language-server", "--stdio" }
+  - filetypes: json, jsonc
+  - init_options: {
+      provideFormatter = true
+    }
+  - root_markers: { ".git" }
+
+- lua_ls:
+  - cmd: { "lua-language-server" }
+  - filetypes: lua
+  - root_markers: { ".emmyrc.json", ".luarc.json", ".luarc.jsonc", ".luacheckrc", ".stylua.toml", "stylua.toml", "selene.toml", "selene.yml", ".git" }
+  - settings: {
+      Lua = {
+        codeLens = {
+          enable = true
+        },
+        hint = {
+          enable = true,
+          semicolon = "Disable"
+        }
+      }
+    }
+
+- marksman:
+  - cmd: { "marksman", "server" }
+  - filetypes: markdown, markdown.mdx
+  - root_markers: { ".marksman.toml", ".git" }
+
+- pyright:
+  - cmd: { "pyright-langserver", "--stdio" }
+  - filetypes: python
+  - on_attach: <function @C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-lspconfig/lsp/pyright.lua:46>
+  - root_markers: { "pyrightconfig.json", "pyproject.toml", "setup.py", "setup.cfg", "requirements.txt", "Pipfile", ".git" }
+  - settings: {
+      python = {
+        analysis = {
+          autoSearchPaths = true,
+          diagnosticMode = "openFilesOnly",
+          useLibraryCodeForTypes = true
+        }
+      }
+    }
+
+- ruff:
+  - cmd: { "ruff", "server" }
+  - filetypes: python
+  - root_markers: { "pyproject.toml", "ruff.toml", ".ruff.toml", ".git" }
+  - settings: {}
+
+- stylua:
+  - cmd: { "stylua", "--lsp" }
+  - filetypes: lua
+  - root_markers: { ".stylua.toml", "stylua.toml", ".editorconfig" }
+
+- taplo:
+  - cmd: { "taplo", "lsp", "stdio" }
+  - filetypes: toml
+  - root_markers: { ".taplo.toml", "taplo.toml", ".git" }
+
+- yamlls:
+  - cmd: { "yaml-language-server", "--stdio" }
+  - filetypes: yaml, yaml.docker-compose, yaml.gitlab, yaml.helm-values
+  - on_init: <function @C:/Users/abhir/AppData/Local/nvim-data/lazy/nvim-lspconfig/lsp/yamlls.lua:73>
+  - root_markers: { ".git" }
+  - settings: {
+      redhat = {
+        telemetry = {
+          enabled = false
+        }
+      },
+      yaml = {
+        format = {
+          enable = true
+        }
+      }
+    }
+
+
+vim.lsp: File Watcher ~
+- file watching "(workspace/didChangeWatchedFiles)" disabled on all clients
+
+vim.lsp: Position Encodings ~
+- No buffers contain mixed position encodings
+
+==============================================================================
+vim.provider:                                                             3 ⚠️
+
+Clipboard (optional) ~
+- ✅ OK Clipboard tool found: win32yank
+
+Node.js provider (optional) ~
+- Node.js: v24.11.1
+
+- Nvim node.js host: C:\Users\abhir/AppData/Local/Yarn/Data/global//node_modules/neovim/bin/cli.js
+
+Perl provider (optional) ~
+- ⚠️ WARNING No perl executable found
+  - ADVICE:
+    - See :help |provider-perl| for more information.
+    - You can disable this provider (and warning) by adding `let g:loaded_perl_provider = 0` to your init.vim
+- ⚠️ WARNING No usable perl executable found
+
+Python 3 provider (optional) ~
+- `g:python3_host_prog` is not set. Searching for pynvim-python in the environment.
+- Executable: C:\Users\abhir\miniconda3\Scripts\pynvim-python.EXE
+- Python version: 3.13.5
+- pynvim version: 0.6.0
+- ✅ OK Latest pynvim is installed.
+
+Python virtualenv ~
+- ✅ OK no $VIRTUAL_ENV
+
+Ruby provider (optional) ~
+- ⚠️ WARNING `ruby` and `gem` must be in $PATH.
+  - ADVICE:
+    - Install Ruby and verify that `ruby` and `gem` commands work.
+
+==============================================================================
+vim.treesitter:                                                             ✅
+
+Treesitter features ~
+- Treesitter ABI support: min 13, max 15
+- WASM parser support: false
+
+Treesitter parsers ~
+- ✅ OK Parser: bash                      ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\bash.so
+- ✅ OK Parser: c                         ABI: 15, path: C:\Program Files\Neovim\lib\nvim\parser\c.dll
+- ✅ OK Parser: json                      ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\json.so
+- ✅ OK Parser: lua                       ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\lua.so
+- ✅ OK Parser: lua                  (not loaded), path: C:\Program Files\Neovim\lib\nvim\parser\lua.dll
+- ✅ OK Parser: markdown                  ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\markdown.so
+- ✅ OK Parser: markdown             (not loaded), path: C:\Program Files\Neovim\lib\nvim\parser\markdown.dll
+- ✅ OK Parser: markdown_inline           ABI: 15, path: C:\Program Files\Neovim\lib\nvim\parser\markdown_inline.dll
+- ✅ OK Parser: python                    ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\python.so
+- ✅ OK Parser: query                     ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\query.so
+- ✅ OK Parser: query                (not loaded), path: C:\Program Files\Neovim\lib\nvim\parser\query.dll
+- ✅ OK Parser: regex                     ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\regex.so
+- ✅ OK Parser: toml                      ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\toml.so
+- ✅ OK Parser: vim                       ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\vim.so
+- ✅ OK Parser: vim                  (not loaded), path: C:\Program Files\Neovim\lib\nvim\parser\vim.dll
+- ✅ OK Parser: vimdoc                    ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\vimdoc.so
+- ✅ OK Parser: vimdoc               (not loaded), path: C:\Program Files\Neovim\lib\nvim\parser\vimdoc.dll
+- ✅ OK Parser: yaml                      ABI: 14, path: C:\Users\abhir\AppData\Local\nvim-data\lazy\nvim-treesitter\parser\yaml.so
+
+==============================================================================
+which-key:                                                                5 ⚠️
+
+- ✅ OK Most of these checks are for informational purposes only.
+  WARNINGS should be treated as a warning, and don't necessarily indicate a problem with your config.
+  Please |DON'T| report these warnings as an issue.
+
+Checking your config ~
+- ⚠️ WARNING |mini.icons| is not installed
+- ✅ OK |nvim-web-devicons| is installed
+
+Checking for issues with your mappings ~
+- ✅ OK No issues reported
+
+checking for overlapping keymaps ~
+- ⚠️ WARNING In mode `n`, <yS> overlaps with <ySS>:
+  - <yS>: Add a surrounding pair around a motion, on new lines (normal mode)
+  - <ySS>: Add a surrounding pair around the current line, on new lines (normal mode)
+- ⚠️ WARNING In mode `n`, <ys> overlaps with <yss>:
+  - <ys>: Add a surrounding pair around a motion (normal mode)
+  - <yss>: Add a surrounding pair around the current line (normal mode)
+- ⚠️ WARNING In mode `n`, <gc> overlaps with <gcc>, <gcA>, <gco>, <gcO>:
+  - <gc>: Comment toggle linewise
+  - <gcc>: Comment toggle current line
+  - <gcA>: Comment insert end of line
+  - <gco>: Comment insert below
+  - <gcO>: Comment insert above
+- ⚠️ WARNING In mode `n`, <gb> overlaps with <gbc>:
+  - <gb>: Comment toggle blockwise
+  - <gbc>: Comment toggle current block
+- ✅ OK Overlapping keymaps are only reported for informational purposes.
+  This doesn't necessarily mean there is a problem with your config.
+
+Checking for duplicate mappings ~
+- ✅ OK No duplicate mappings found
+
